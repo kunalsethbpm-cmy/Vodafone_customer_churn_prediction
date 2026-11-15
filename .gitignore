@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+build/
+dist/
+
+# Data and artefacts (the dataset is not redistributed here)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/
+models/*
+!models/.gitkeep
+reports/demo/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
